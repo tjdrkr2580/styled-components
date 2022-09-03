@@ -18,7 +18,7 @@ const ButtonGroup = styled.div`
 `;
 
 function App() {
-  const [dialog, setDialog] = useState(false);
+  const [dialog, setDialog] = useState(true);
   const onClick = () => {
     setDialog(!dialog);
   };
